@@ -9,7 +9,7 @@ print(f"First 4 elements: {numbers[:4]}") # [5, 10, 15, 20]
 print(f"Last 4 elements: {numbers[-4:]}")
 
 # 3. Elements from index 2 to 6
-print(f"Elements from index 2 to 6 {numbers[2:6]}")
+print(f"Elements from index 2 to 6 {numbers[2:7]}")
 
 # 4. Skip one element
 print(f"Skip one element {numbers[::2]}")
