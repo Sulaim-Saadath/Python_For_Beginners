@@ -73,3 +73,18 @@ print(f"{list4}")
 # Merging Two Lists
 newList = list1 + list2
 print(f"{newList}")
+
+# index() - To find the index of a element
+fruits = ["apple", "banana", "banana", "cherry"]
+print(f"{fruits.index('banana')}")
+
+# count() - To check the frequency of the element
+print(f"{fruits.count('banana')}")
+
+# copy() - To copy the elements of one list to another list
+fruitsCopy = fruits.copy()
+print(f"{fruitsCopy}")
+
+# del() - To completly delete the elements from the fruit list
+# del fruitsCopy
+# print(fruitsCopy)
