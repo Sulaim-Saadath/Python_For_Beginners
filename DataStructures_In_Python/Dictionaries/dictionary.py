@@ -50,7 +50,7 @@ marks = {
 }
 
 total = 0
-for subject, score in marks.items:
+for subject, score in marks.items():
     total += score
     pass
 print(f"Total Marks: {total}")
@@ -59,4 +59,9 @@ print(f"Average Marks: {total / marks.__len__()}")
 # copy() -> copies the key - value pairs of one dictionary to another
 d1 = student.copy()
 print(d1)
+
+# fromKeys() -> Create Dictionary
+keys = ["1", "2", "3"]
+d = dict.fromkeys(keys, 0)
+print(d)
 
