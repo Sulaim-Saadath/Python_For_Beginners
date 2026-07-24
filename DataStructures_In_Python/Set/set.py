@@ -30,6 +30,8 @@ print(a.intersection(b))
 print(a - b)
 print(b - a)
 
+a.issubset(b)
+
 # print(a | b) (Union)
 # print(a & b) (Intersection)
 # print(a - b) (difference)
@@ -37,3 +39,11 @@ print(b - a)
 # Looping through set
 for item in st:
     print(item)
+    
+# To find whether a set is subset if another set
+print(a.issubset(b))
+print(a.isdisjoint(b))
+
+sentence = "This is a test. This test is simple."
+sentence = sentence.replace(".", "")
+print(sentence)
