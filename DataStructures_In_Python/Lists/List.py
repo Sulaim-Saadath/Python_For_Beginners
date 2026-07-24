@@ -52,6 +52,7 @@ list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 list1.extend(list2)
 print(f"{list1}")
+print(f"{list1.count(1)}")
 
 # 5) sort() - Arranges the element in ascending order
 list3 = [4, 1, 3, 2]
